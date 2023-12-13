@@ -1,0 +1,515 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #3734A9;
+    --white: #ffffff;
+}
+
+body {
+    background-color: #fff;
+}
+
+.mtb5 {
+    margin: 5rem 0;
+}
+
+/* ====================================== [ Navbar start ] ====================================  */
+
+.navbar .container {
+    border-bottom: 1px solid #E6E6E6;
+    padding-bottom: 0.5rem;
+}
+
+.navbar-light .navbar-brand {
+    color: var(--primary-color);
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.50);
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: var(--primary-color);
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-bottom: 2px solid;
+}
+
+.leftNav .navbar-brand {
+    color: var(--primary-color);
+    font-family: sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 0.7rem;
+}
+
+.get-started {
+    border-radius: 1.25rem;
+    background: var(--primary-color);
+    color: var(--white);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 9.9375rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+}
+
+.get-started:hover {
+
+    background: #007eff;
+    color: var(--white);
+
+}
+
+
+/* ====================================== [ Navbar End ] ====================================  */
+
+
+/* ====================================== [ breadcrumb start ] ====================================  */
+
+.breadcrumb-item a {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem;
+    text-decoration: none;
+
+}
+
+.breadcrumb-item.active {
+    color: #BABABA;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    padding-right: 0.5rem;
+    color: var(--primary-color);
+    content: var(--bs-breadcrumb-divider, "/");
+}
+
+/* ====================================== [ breadcrumb end ] ====================================  */
+
+
+
+/* ====================================== [ banner start ] ====================================  */
+
+.banner-bg {
+    background-image: url("/image/Banner-bg.png");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 25rem;
+    border-radius: 1.25rem;
+}
+
+.img-br {
+    border-radius: 12.5rem;
+    margin-top: 0.5rem;
+}
+
+.trendy {
+    color: var(--primary-color);
+    font-size: 3.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 4.25rem;
+    text-transform: capitalize;
+}
+
+
+.TSM {
+    color: #3734A9;
+    font-size: 2.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3.375rem;
+    text-transform: capitalize;
+}
+
+.banner2-p {
+    color: #000;
+    text-align: right;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.125rem;
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    width: 20rem;
+}
+
+.btn-shop-collection {
+    background-color: var(--primary-color);
+    color: var(--white);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.btn-shop-collection:hover {
+    background-color: #0700ff;
+    color: var(--white);
+    
+}
+
+.shiw-a {
+    color: var(--primary-color);
+    text-decoration: none;
+    margin-left: 0.7rem;
+}
+
+.card:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/* ====================================== [ banner end ] ====================================  */
+
+/* ====================================== [ feature start ] ====================================  */
+
+.feature {
+    color: #000;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.09rem;
+    padding: 5rem 0;
+}
+
+.filter {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+
+}
+
+.form-head {
+    color: var(--neutral-color-100, #00171F);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+    /* 150% */
+}
+
+.ankara {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.mandF {
+    color: #5B5B5B;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-sort {
+    border-radius: 1.25rem;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-card-kart {
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    padding: .4rem;
+}
+
+.card-title {
+    color: var(--neutral-color-100, #00171F);
+    font-size: 0.9375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+
+}
+
+.genAgeL {
+    color: var(--neutral-color-60, #667479);
+    font-size: 0.625rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.125rem;
+}
+
+.genAgeP {
+    color: var(--neutral-color-60, #667479);
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.125rem;
+}
+
+.card-price {
+    color: var(--neutral-color-100, #00171F);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+
+.card {
+    border-radius: 0.75rem;
+    background: var(--neutral-color-00, #FDFDFD);
+    box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+
+}
+
+.card-img-br {
+    border-radius: 0.75rem;
+}
+
+.page-link {
+    border: none;
+    color: #3734A9;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.page-item.active .page-link {
+    border-color: var(--primary-color);
+    border-radius: 0.5rem;
+    background: var(--primary-color);
+}
+
+.mt-5rem{
+    margin-top: 5rem;
+}
+
+footer{
+    border-top: 2px solid var(--primary-color);
+}
+
+
+/* ====================================== [ feature end ] ====================================  */
+
+/* ====================================== [ footer start ] ====================================  */
+
+.footer-section::before {
+    content: '';
+    background: url('/image/Vector\ 1.png') no-repeat center center/cover;
+    position: absolute;
+    opacity: 1;
+    top: 0px;
+    left: 0px;
+    width: 15%;
+    height: 100%;
+    z-index: -1;
+}
+
+.footer-section::after {
+    content: '';
+    background: url('/image/Vector\ 2.png') no-repeat center center/cover;
+    position: absolute;
+    opacity: 1;
+    top: 0px;
+    right:  0px;
+    width: 15%;
+    height: 100%;
+    z-index: -1;
+}
+.signup-box {
+    background-color: var(--primary-color);
+    border-radius: 1.25rem;
+    padding: 3rem;
+}
+
+.singup-text {
+    color: var(--neutral-color-00, #FDFDFD);
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.25rem;
+    text-transform: capitalize;
+}
+
+.email-box {
+    border-radius: 1.25rem;
+    background: #FFF;
+    padding: 2rem;
+}
+
+.email-box .input-box {
+    width: 70%;
+    border-radius: 0.625rem;
+    border: 1px solid #3734A9;
+    background: #FFF;
+}
+
+.footer-navbar-brand {
+    color: #000;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.ooter-text {
+    color: var(--color-300, #7F848D);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.all-rights {
+    color: var(--color-500, #293241);
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.footer-a {
+    display: block;
+    color: var(--color-300, #7F848D);
+    text-decoration: none;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+
+.social-a {
+    color: var(--color-500, #293241);
+    text-decoration: none;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.btn-social {
+    border-radius: 0.5rem;
+    background: var(--color-50, #EAEBEC);
+}
+
+.btn-social:hover {
+    background: var(--primary-color);
+    color: var(--white);
+}
+
+
+/* ====================================== [ footer end ] ====================================  */
+
+/* ======================================= [ Media Queries Start ] ============================== */
+
+
+@media screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+
+    .banner2-box {
+        margin: 3rem 0rem 0rem 6rem;
+    }
+
+
+
+}
+
+@media screen and (max-width: 992px) {
+    
+    .mobile-tm{
+        margin-top: 20rem;
+    }
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+    
+    .email-box{
+        flex-direction: column;
+    }
+
+    .email-box .input-box {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+
+    .genAgeP {
+        font-size: 1rem;
+    }
+
+    .genAgeL {
+        font-size: 1rem;
+    }
+
+
+    .card-price {
+        font-size: 1.3rem;
+    }
+
+    .navbar-nav{
+        text-align: center;
+    }
+
+    .nav-link{
+        font-size: 3rem;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+        font-size: 3rem;
+
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 3rem;
+    }
+
+
+}
+
+/* ======================================= [ Media Queries end ] ================================ */
